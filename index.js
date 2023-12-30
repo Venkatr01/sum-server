@@ -8,3 +8,4 @@ app.get("/sum",(req,res)=>{
     res.send(sum.toString());
 });
 
+app.listen(8080);
